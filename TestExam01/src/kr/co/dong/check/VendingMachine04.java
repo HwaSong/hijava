@@ -21,6 +21,7 @@ public class VendingMachine04 {
 
 	public static void main(String[] args) {
 		//변수 선언
+		int git = 0;
 		int laptop = 10000, phone = 5000, flower = 1000;
 		boolean done = false;
 		int sel = 0, num1 = 0, num2 = 0, sum = 0;
