@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="sampleMapper">
+  	<insert id="sample1" parameterType="java.lang.String">
+  		insert into tbl_sample1(col1) value(#{col1})
+  	</insert>
+  	<insert id="sample2" parameterType="java.lang.String">
+  		insert into tbl_sample2(col2) value(#{col2})
+  	</insert>
+  </mapper>
